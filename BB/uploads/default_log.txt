@@ -1,0 +1,11 @@
+
+http://php.net/manual/en/language.operators.arithmetic.php
+1.5/10
+http://edition.cnn.com/travel/article/princess-grace-suite-monte-carlo/index.html
+8.7/10
+http://www.bbc.com/news/business-42713932
+7.3/10
+https://ekonomika.idnes.cz/led-zarovky-eurostat-elektrina-uspora-spotreba-fts-/eko-zahranicni.aspx?c=A180116_124836_eko-zahranicni_mato
+0.1/10
+http://www.bbc.com/news/science_and_environment
+2.6/10

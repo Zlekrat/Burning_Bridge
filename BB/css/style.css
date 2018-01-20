@@ -1,0 +1,144 @@
+input[type=text] {
+	font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    width: 50%;
+	display: inline-block;
+    padding: 5px 2px;
+    box-sizing: border-box;
+	border: 0px solid #555;
+}
+
+body {
+	margin: 0;
+	background: #000; 
+}
+
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+	transition: 1s opacity;
+}
+
+.stopfade { 
+	opacity: .5;
+}
+
+#CaNun { 
+	font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+	font-weight:100; 
+	background: rgba(0,0,0,0.85);
+	color: white;
+	padding: 2rem;
+	width: 33%;
+	margin:2rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 1.2rem;
+}
+
+#Engine { 
+	font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+	font-weight:100; 
+	background: rgba(0,0,0,0.85);
+	color: white;
+	padding: 2rem;
+	width: 48%;
+	margin:2rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 1.2rem;
+}
+
+h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	margin-top: 0;
+	letter-spacing: .3rem;
+}
+
+h2 {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	margin-top: 0;
+	letter-spacing: .18rem;
+}
+
+h3 {
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin-top: 0;
+	letter-spacing: .2rem;
+}
+
+#CaNun button { 
+	display: block;
+	width: 80%;
+	padding: .4rem;
+	border: none; 
+	margin: 1rem auto; 
+	font-size: 1.3rem;
+	background: rgba(255,255,255,0.23);
+	color: #fff;
+	border-radius: 3px; 
+	cursor: pointer;
+	transition: .3s background;
+}
+
+#CaNun button:hover { 
+	background: rgba(0,0,0,0.5);
+}
+
+#CaNun a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	background:rgba(0,0,0,0.5);
+	padding: .5rem;
+	transition: .6s background; 
+}
+
+#CaNun a:hover{
+	background:rgba(0,0,0,0.9);
+}
+
+@media screen and (max-width: 500px) { 
+	div{width:70%;} 
+}
+
+@media screen and (max-device-width: 800px) {
+	html { background: url(/images/fake-news.jpg) #000 no-repeat center center fixed; }
+	#bgvid { display: none; }
+}
+
+#Engine input[type="submit"] {
+	font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+	font-weight:100; 
+	width: 20%;
+	padding: .28rem;
+	border: none; 
+	margin: 1rem auto; 
+	font-size: 1.11rem;
+	border-radius: 3px; 
+	cursor: pointer;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	background:rgba(0,0,0,0.5);
+	transition: .6s background;
+	position: relative; 
+	float: right;
+}
+
+#Engine input[type="submit"]:hover { 
+	background:rgba(0,0,0,0.9);
+}
+
